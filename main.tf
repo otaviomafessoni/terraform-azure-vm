@@ -91,7 +91,7 @@ resource "azurerm_windows_virtual_machine" "vm_otavio" {
   location            = azurerm_resource_group.rg.location
   size                = "Standard_B2S"
   admin_username      = "otavio"
-  admin_password      = "XPtbr1993"
+  admin_password      = "123456"
   network_interface_ids = [
     azurerm_network_interface.vnic01.id,
   ]
